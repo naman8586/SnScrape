@@ -1,0 +1,32 @@
+2025-06-23 16:45:41,377 - INFO - Starting scrape for keyword: 'milorad dodik' (last 2 days)
+2025-06-23 16:45:41,377 - INFO - Fetching tweets... Current count: 0
+2025-06-23 16:45:45,683 - ERROR - Unexpected error: HTTPSConnectionPool(host='api.twitter.com', port=443): Max retries exceeded with url: /2/tweets/search/recent?max_results=100&tweet.fields=created_at%2Ctext%2Cpublic_metrics%2Centities%2Cauthor_id%2Cconversation_id%2Cin_reply_to_user_id%2Clang%2Cpossibly_sensitive%2Creferenced_tweets%2Creply_settings%2Csource%2Cwithheld&user.fields=username%2Cname%2Cverified%2Cpublic_metrics%2Cprofile_image_url%2Ccreated_at%2Cdescription%2Clocation%2Curl%2Cverified_type&expansions=author_id%2Cattachments.media_keys%2Creferenced_tweets.id%2Creferenced_tweets.id.author_id&media.fields=type%2Curl%2Cpreview_image_url%2Cwidth%2Cheight%2Cduration_ms%2Cpublic_metrics&start_time=2025-06-21T16%3A45%3A41Z&query=milorad+dodik+-is%3Aretweet+lang%3Aen (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000174ED0AA5D0>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed'))
+2025-06-23 16:56:33,826 - INFO - Starting scrape for keyword: 'miroladdodik' (last 1 days)
+2025-06-23 16:56:33,828 - INFO - Fetching tweets... Current count: 0
+2025-06-23 16:56:34,248 - WARNING - Rate limit hit. Waiting 899.75 seconds
+2025-06-23 17:14:53,684 - INFO - Starting scrape for keyword: 'miroladdodik' (last 1 days)
+2025-06-23 17:14:53,684 - INFO - Fetching tweets... Current count: 0
+2025-06-23 17:14:54,020 - WARNING - Rate limit hit. Waiting 899.98 seconds
+2025-06-23 17:29:54,011 - ERROR - API Error: Rate limit exceeded
+2025-06-23 17:29:54,011 - INFO - Fetching tweets... Current count: 0
+2025-06-23 17:29:54,381 - WARNING - Rate limit hit. Waiting 899.62 seconds
+2025-06-23 17:33:01,228 - INFO - Starting scrape for keyword: 'milorad dodik' (last 1 days)
+2025-06-23 17:33:01,228 - INFO - Fetching tweets... Current count: 0
+2025-06-23 17:33:01,740 - WARNING - Rate limit hit. Waiting 712.26 seconds
+2025-06-23 17:44:54,013 - ERROR - Rate limit error persists: Rate limit exceeded
+2025-06-23 17:44:54,016 - WARNING - No tweets were collected.
+2025-06-23 17:49:36,550 - INFO - Starting scrape for keyword: 'miroladdodik' (last 1 days)
+2025-06-23 17:49:36,970 - ERROR - Token validation failed: HTTP 403: {
+  "title": "Unsupported Authentication",
+  "detail": "Authenticating with OAuth 2.0 Application-Only is forbidden for this endpoint.  Supported authentication types are [OAuth 1.0a User Context, OAuth 2.0 User Context].",
+  "type": "https://api.twitter.com/2/problems/unsupported-authentication",
+  "status": 403
+}
+2025-06-23 17:49:36,971 - ERROR - Cannot proceed with scraping due to invalid token or rate limit. Please check your Twitter Developer Portal.
+2025-06-23 17:58:49,157 - INFO - Corrected keyword to: 'milorad dodik'
+2025-06-23 17:58:49,158 - INFO - Starting scrape for keyword: 'milorad dodik' (last 1 days)
+2025-06-23 17:58:49,647 - ERROR - Rate limit check failed: HTTP 403: {"client_id":"31114915","detail":"When authenticating requests to the Twitter API v2 endpoints, you must use keys and tokens from a Twitter developer App that is attached to a Project. You can create a project via the developer portal.","registration_url":"https://developer.twitter.com/en/docs/projects/overview","title":"Client Forbidden","required_enrollment":"Appropriate Level of API Access","reason":"client-not-enrolled","type":"https://api.twitter.com/2/problems/client-forbidden"}
+2025-06-23 17:58:49,648 - ERROR - Cannot proceed with scraping due to rate limit or invalid token. Please check Twitter Developer Portal.
+2025-06-23 17:58:54,928 - INFO - Starting scrape for keyword: 'milorad dodik' (last 1 days)
+2025-06-23 17:58:55,526 - ERROR - Rate limit check failed: HTTP 403: {"client_id":"31114915","detail":"When authenticating requests to the Twitter API v2 endpoints, you must use keys and tokens from a Twitter developer App that is attached to a Project. You can create a project via the developer portal.","registration_url":"https://developer.twitter.com/en/docs/projects/overview","title":"Client Forbidden","required_enrollment":"Appropriate Level of API Access","reason":"client-not-enrolled","type":"https://api.twitter.com/2/problems/client-forbidden"}
+2025-06-23 17:58:55,527 - ERROR - Cannot proceed with scraping due to rate limit or invalid token. Please check Twitter Developer Portal.
